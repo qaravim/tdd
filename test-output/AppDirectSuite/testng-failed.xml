@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppDirectSuite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="propertyfileName" value=".//input-data//browser.properties"/>
+  <test name="AppDirectTest(failed)">
+    <classes>
+      <class name="appDirectTest.LeadPageTest">
+        <methods>
+          <include name="VerifyFunctionalityOfLoginLinkOfHeader"/>
+          <include name="getParameters"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- appDirectTest.LeadPageTest -->
+    </classes>
+  </test> <!-- AppDirectTest(failed) -->
+</suite> <!-- Failed suite [AppDirectSuite] -->

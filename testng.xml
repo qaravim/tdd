@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppDirectSuite">
+	<parameter name="browser" value="chrome" />
+	<parameter name="propertyfileName"
+		value=".//input-data//browser.properties"/>
+	<test name="AppDirectTest">
+		<classes>
+	         <class name="appDirectTest.LeadPageTest">
+		     </class>
+		     <!-- <class name="appDirectTest.LoginPageTest">
+		     </class>
+		     <class name="appDirectTest.SignUpPageTest">
+		     </class> -->
+		</classes>
+	</test> 
+</suite>
